@@ -1,0 +1,16 @@
+.contain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 510px;
+    width: 50%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 60px; 
+    background-color: white;
+    margin-left: 150px;
+    margin-right : 50px;
+}
+

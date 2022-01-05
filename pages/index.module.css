@@ -1,0 +1,127 @@
+/* .green{
+    color : green;
+} */
+
+
+
+/* .title{
+    
+    display: flex;
+    justify-content: center;
+    background : '#3f51b5';
+    color: red;
+    padding : "20";
+     
+}
+
+.card{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    border : 2px black solid;
+    margin-left : 300px;
+    margin-right : 300px;
+    background-color: rgba(198, 231, 179, 0.979);
+}
+
+
+.heading {
+    
+    background : '#3f51b5';
+    color: blue;
+    padding : "20";
+}
+
+.btn {
+    margin-top : 10;
+    margin-bottom: 20;
+}
+
+.item {
+    padding : 1px;
+    
+} */
+
+
+
+.title {
+    font-size: larger;
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    background-color: #e1e3eb;
+    margin-left: 8px;
+    margin-right : 8px;
+}
+
+
+.container {
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #e1e3eb;
+    margin-left: 8px;
+    margin-right : 8px;
+    margin-bottom: 10px;
+}
+
+.submain {
+    display: flex;
+    justify-content: center;
+    height: 510px;
+    width: 35%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 60px; 
+    background-color: white;
+    margin-left: 50px;
+    margin-right : 50px;
+}
+
+.details1{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.heading {
+    
+    background : '#3f51b5';
+    color: blue;
+    padding : 10px;
+}
+
+.textfield {
+    margin-left: 50px;
+    width : 400px;
+    margin-top : 5px;
+    margin-bottom : 5px;
+}
+
+.btn1 {
+    padding : 3%;
+    margin-top : 10px;
+    margin-bottom: 20px;
+    margin-left : 50px;
+    margin-right : 50px;
+}
+
+.btn2 {
+    margin-top: 10px;
+    margin-bottom :20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    border : 2px #e1e3eb solid;
+    background-color: #e1e3eb;
+    margin-left: 60px;
+    margin-right : 60px; 
+}

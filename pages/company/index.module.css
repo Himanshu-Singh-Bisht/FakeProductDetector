@@ -1,0 +1,10 @@
+.qr {
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.proText {
+    margin-right : 30px;
+}

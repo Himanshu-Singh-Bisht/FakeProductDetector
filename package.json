@@ -2,15 +2,30 @@
   "name": "temp",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.3",
+    "@mui/styles": "^5.2.3",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "emotion": "^11.0.0",
+    "fs-extra": "^10.0.0",
     "next": "12.0.7",
+    "next-routes": "^1.4.2",
+    "qrcode": "^1.5.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-qr-reader": "^2.2.1",
+    "reactjs-popup": "^2.0.5",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.4",
+    "solc": "^0.4.26",
+    "web3": "^1.6.1"
   },
   "devDependencies": {
     "eslint": "8.4.1",
