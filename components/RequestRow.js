@@ -31,7 +31,7 @@ export default class RequestRow extends Component {
                 {/* <Cell>{request.recipient}</Cell> */}
                 {/* <Cell>{request.approvedCount}/{approversCount}</Cell> */}
                 {/* <Cell>{request.complete ?null:(<Button basic color='green' onClick={this.handleApprove}>Approve</Button>)}</Cell> */}
-                <Cell>"cireco"</Cell>
+                <Cell>cireco</Cell>
                 <Cell>{(<Button basic color='purple' onClick={this.handleFinalize}>Transfer</Button>)}</Cell>
             </Row>
         )

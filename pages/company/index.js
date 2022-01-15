@@ -197,9 +197,9 @@ export default class CompanyManager extends Component {
       //   const product = await Detector.methods.getProductDetails(productId).call();
 
       // const product = await Detector.methods.getProductDetails(productId).call();
-
+      
       return (
-        <Table.Row disabled={productObj[6]}>
+        <Table.Row key = {index} disabled={productObj[6]}>
           <Table.Cell>{index + 1}</Table.Cell>
           <Table.Cell>{productObj[0]}</Table.Cell>
           <Table.Cell>{productObj[3]}</Table.Cell>

@@ -204,7 +204,7 @@ export default class User extends Component {
       // return arr.map((request, index) => {
       // props.userProductList
       return (
-        <Table.Row>
+        <Table.Row key = {index}> 
           <Table.Cell>{index + 1}</Table.Cell>
           <Table.Cell>{productObj[0]}</Table.Cell>
           <Table.Cell>{productObj[3]}</Table.Cell>
